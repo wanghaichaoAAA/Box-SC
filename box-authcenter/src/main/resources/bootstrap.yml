@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: box-authcenter
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        shared-dataids: box-db-common.yml,box-nacos.yml
+        refreshable-dataids: box-db-common.yml,box-nacos.yml
