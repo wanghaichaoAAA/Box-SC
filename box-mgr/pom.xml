@@ -14,9 +14,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.whc</groupId>
-            <artifactId>box-common</artifactId>
-        </dependency>
+        <groupId>com.whc</groupId>
+        <artifactId>box-common</artifactId>
+    </dependency>
 
         <dependency>
             <groupId>mysql</groupId>

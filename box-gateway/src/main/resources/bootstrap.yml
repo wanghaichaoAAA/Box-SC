@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: box-gateway
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        shared-dataids: box-nacos.yml
+        refreshable-dataids: box-nacos.yml

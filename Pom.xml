@@ -19,6 +19,7 @@
         <module>box-authcenter</module>
         <module>box-common</module>
         <module>box-mgr</module>
+        <module>box-gateway</module>
     </modules>
 
     <properties>
